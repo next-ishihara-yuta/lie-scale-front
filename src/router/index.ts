@@ -16,9 +16,10 @@ const routes: Array<RouteRecordRaw> = [
     component: Test
   },
   {
-    path: '/result',
+    path: '/result/:resultId',  // この行を修正
     name: 'Result',
-    component: Result
+    component: Result,
+    props: true  // この行を追加
   }
 ]
 

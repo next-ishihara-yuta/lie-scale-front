@@ -10,7 +10,7 @@
 
 <script>
 import { ref } from 'vue'
-import { questions } from '../data/questions'
+import { questions } from '@/data/questions'
 
 export default {
   name: 'Home',
